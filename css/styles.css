@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/*this means that it applies to everything*/
 *{
 	font-family:Helvetica, Arial, sans-serif;
 
@@ -13,16 +13,19 @@ h2{
 	font-weight:100;
 	margin-top:-20px;
 }
+/*this mean that even table rows recieve that background color*/
 tr:nth-child(even){
 	background-color: #EACD8D;
 }
 th{
 	text-align: left;
 	border-left:1px solid #A7A6A6;
+	padding: 3px 30px;
 }
 td{
 	padding: 3px 30px;
-	border: 1px solid #A7A6A6;
+	border-left: 1px solid #A7A6A6;
+	border-right:1px solid #A7A6A6;
 }
 img{
 	
@@ -31,6 +34,10 @@ img{
 }
 table{
 	border-collapse:collapse;
+	border-bottom:1px solid #A7A6A6;
+}
+tr:nth-child(2){
+	border-top:1px solid #A7A6A6;
 }
 .image{
 	border:0px solid #A7A6A6;
@@ -40,6 +47,7 @@ span{
 	font-weight:100;
 	font-style:italic;
 }
+/*start of nav styling*/
 li{
 	float:left;
 	display:block;
