@@ -1,0 +1,125 @@
+Last login: Tue May  2 12:08:09 on console
+grc-turkey:~ mmeunitz$ cd Desktop
+grc-turkey:Desktop mmeunitz$ cd 338_03_05_morgan
+grc-turkey:338_03_05_morgan mmeunitz$ git init
+Initialized empty Git repository in /Users/mmeunitz/Desktop/338_03_05_morgan/.git/
+grc-turkey:338_03_05_morgan mmeunitz$ git add -A
+grc-turkey:338_03_05_morgan mmeunitz$ git commit -m "add files"
+[master (root-commit) 144d2c0] add files
+ 8 files changed, 20 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100644 images/logo.gif
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-turkey:338_03_05_morgan mmeunitz$ git remote add origin https://github.com/mmeunitz/lab-5.git
+grc-turkey:338_03_05_morgan mmeunitz$ git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.17 MiB | 1.81 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mmeunitz/lab-5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-turkey:338_03_05_morgan mmeunitz$ git log
+commit 144d2c039eaade5c3a1e1bd4c9bca6cd407909c8
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 12:53:28 2017 -0700
+
+    add files
+grc-turkey:338_03_05_morgan mmeunitz$ git commit -am "created table"
+[master 3a38419] created table
+ 3 files changed, 73 insertions(+), 7 deletions(-)
+grc-turkey:338_03_05_morgan mmeunitz$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.11 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+git ;oTo https://github.com/mmeunitz/lab-5.git
+   144d2c0..3a38419  master -> master
+grc-turkey:338_03_05_morgan mmeunitz$ git log
+commit 3a3841949f697e1a1ae292c9e484b34e88de2067
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 13:26:21 2017 -0700
+
+    created table
+
+commit 144d2c039eaade5c3a1e1bd4c9bca6cd407909c8
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 12:53:28 2017 -0700
+
+    add files
+grc-turkey:338_03_05_morgan mmeunitz$ git commit -am "add nav"
+[master b8818bd] add nav
+ 2 files changed, 75 insertions(+), 10 deletions(-)
+grc-turkey:338_03_05_morgan mmeunitz$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.03 KiB | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mmeunitz/lab-5.git
+   3a38419..b8818bd  master -> master
+grc-turkey:338_03_05_morgan mmeunitz$ git log
+commit b8818bd194df20173837f29a863a5ebb833a3c0f
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 14:35:08 2017 -0700
+
+    add nav
+
+commit 3a3841949f697e1a1ae292c9e484b34e88de2067
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 13:26:21 2017 -0700
+
+    created table
+
+commit 144d2c039eaade5c3a1e1bd4c9bca6cd407909c8
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 12:53:28 2017 -0700
+
+    add files
+grc-turkey:338_03_05_morgan mmeunitz$ git commit -am "add comments"
+[master fdece6b] add comments
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+grc-turkey:338_03_05_morgan mmeunitz$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 823 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/mmeunitz/lab-5.git
+   b8818bd..fdece6b  master -> master
+grc-turkey:338_03_05_morgan mmeunitz$ git log
+commit fdece6b030ac1e856e12c918fccd78d9a3ff9cb4
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 14:49:01 2017 -0700
+
+    add comments
+
+commit b8818bd194df20173837f29a863a5ebb833a3c0f
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 14:35:08 2017 -0700
+
+    add nav
+
+commit 3a3841949f697e1a1ae292c9e484b34e88de2067
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 13:26:21 2017 -0700
+
+    created table
+
+commit 144d2c039eaade5c3a1e1bd4c9bca6cd407909c8
+Author: Morgan Meunitz <morganlmeunitz@aol.com>
+Date:   Tue May 2 12:53:28 2017 -0700
+
+    add files
+:
