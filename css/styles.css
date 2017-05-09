@@ -69,6 +69,7 @@ a{
 }
 a:hover{
 	color: #ADA9E1;
+/*start of form styling */
 }
 form img{
 	width:75px;
@@ -83,6 +84,7 @@ form p{
 form fieldset{
 	background-color:#ADA9E1;
 	margin: 20px;
+	border-radius: 10px;
 }
 form legend{
 	text-transform:uppercase;
@@ -90,4 +92,14 @@ form legend{
 }
 hr{
 	margin:30px;
+}
+/*styled summit form with class element */
+.submit{
+	font-size:15px;
+	text-transform:uppercase;
+	background-color:#ADA9E1;
+	padding:15px;
+	cursor:pointer;
+	margin:16px;
+	border-radius: 10px;
 }

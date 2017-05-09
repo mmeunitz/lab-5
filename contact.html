@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet" type="text/css"/>
 <body>
+<!--only the home page is actually linked-->
 <nav>
     	<ul>
         	<li><a href="index.html">Home</a></li>
@@ -19,14 +20,17 @@
     </nav>
 <h1>Hydro Flask</h1>
 <h2>Wide Mouth with Flex Cap</h2>
+<!--start of form-->
 <form>
 	<p>First name<input type="text" name="first name">
     Last name<input type="text" name="last name"></p>
     <hr>
+    <!--personal information portion-->
     <legend> Personal Information</legend>
     <fieldset>
     <p>Address <input type="text" name="address"></p>
     <p>City<input type="text" name="city"> </p>
+    <!--drop down form element below-->
     <p>State<select name="state">
         <option name="ALASKA	"> AK</option>
         <option name="ARIZONA">	AZ</option>
@@ -80,11 +84,12 @@
         </select>
     </p>
     <p>zip code<input type="text " name="zip code"></p>
-    <p> phone number<input type="text" name="phone number"></p>
+    <p> phone number<input type="text" name="phone number" placeholder="(XXX)-XXX-XXXX"></p>
     <p> email<input type="text" name="email" placeholder="example@aol.com"></p>
     <p> female <input type="radio" name="gender" value="female"> male <input type="radio" name="gender" value="male"></p>
     <p> select five of your favorite colors</p>
-    <p> 
+    <p > 
+    <!--checkbox form element below-->
     <input type="checkbox" name="favorite color" value="red"> red
     <input type="checkbox" name="favorite color" value="purple"> purple
     <input type="checkbox" name="favorite color" value="green"> green
@@ -96,18 +101,22 @@
     <input type="checkbox" name="favorite color" value="black"> black 
     </p>
     </fieldset>
+    <!--end of personal information -->
     <hr>
+    <!--start of credit card information-->
     <legend> Credit Card Information</legend>
     <fieldset>
+    <!--these are images of different credit cards-->
     <img src="images/american_express.gif" alt="american express card"/>
     <img src="images/mastercard1979.gif" alt="master card"/>
     <img src="images/visa.gif" alt="visa card"/>
     <p>credit card number <input type="text" name="credit card number" placeholder="XXXX-XXXX-XXXX-XXXX"> </p>
     <p>expiration date<input type="text" name="expiration date" placeholder="MM/YY"> </p>
-    <p>cvv<input type="text" name="cvv" placeholder="cvv"> </p>
+    <p>cvv<input type="text" name="cvv" placeholder="on the back of the card"> </p>
     	
     </fieldset>
-    <input type="submit" name="summit button" value="submit">
+    <!--end of credit card information-->
+    <input class="submit" type="submit" name="summit button" value="submit">
 </form>
 </body>
 </html>
