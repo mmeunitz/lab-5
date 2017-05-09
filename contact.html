@@ -2,13 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index</title>
+<title>Contact</title>
 </head>
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet" type="text/css"/>
 <body>
 <nav>
     	<ul>
-        	<li><a href="Home.html">Home</a></li>
+        	<li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="customize.html">Customize</a></li>
             <li><a href="innovation.html">Innovation</a></li>
@@ -16,11 +17,16 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+<h1>Hydro Flask</h1>
+<h2>Wide Mouth with Flex Cap</h2>
 <form>
-	<p>First name<input type="text" name="first name" value="first name"></p>
-    <p>Last name<input type="text" name="last name" value="last name"></p>
-    <p>Address <input type="text" name="address" value="address"></p>
-    <p>City<input type="text" name="city" value="city"> </p>
+	<p>First name<input type="text" name="first name">
+    Last name<input type="text" name="last name"></p>
+    <hr>
+    <legend> Personal Information</legend>
+    <fieldset>
+    <p>Address <input type="text" name="address"></p>
+    <p>City<input type="text" name="city"> </p>
     <p>State<select name="state">
         <option name="ALASKA	"> AK</option>
         <option name="ARIZONA">	AZ</option>
@@ -75,7 +81,7 @@
     </p>
     <p>zip code<input type="text " name="zip code"></p>
     <p> phone number<input type="text" name="phone number"></p>
-    <p> email<input type="text" name="email"></p>
+    <p> email<input type="text" name="email" placeholder="example@aol.com"></p>
     <p> female <input type="radio" name="gender" value="female"> male <input type="radio" name="gender" value="male"></p>
     <p> select five of your favorite colors</p>
     <p> 
@@ -89,11 +95,16 @@
     <input type="checkbox" name="favorite color" value="lime green"> lime green
     <input type="checkbox" name="favorite color" value="black"> black 
     </p>
-    <fieldset>
+    </fieldset>
+    <hr>
     <legend> Credit Card Information</legend>
-    <p>credit card number <input type="text" name="credit card number"> </p>
-    <p>expiration date<input type="text" name="expiration date"> </p>
-    <p>cvv<input type="text" name="cvv"> </p>
+    <fieldset>
+    <img src="images/american_express.gif" alt="american express card"/>
+    <img src="images/mastercard1979.gif" alt="master card"/>
+    <img src="images/visa.gif" alt="visa card"/>
+    <p>credit card number <input type="text" name="credit card number" placeholder="XXXX-XXXX-XXXX-XXXX"> </p>
+    <p>expiration date<input type="text" name="expiration date" placeholder="MM/YY"> </p>
+    <p>cvv<input type="text" name="cvv" placeholder="cvv"> </p>
     	
     </fieldset>
     <input type="submit" name="summit button" value="submit">

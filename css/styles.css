@@ -68,6 +68,26 @@ a{
 	color:white;
 }
 a:hover{
-	color: green;
+	color: #ADA9E1;
 }
-
+form img{
+	width:75px;
+	height:auto;
+	padding:16px;
+}
+form p{
+	font-family: 'Oxygen', sans-serif;
+	text-transform:capitalize;
+	
+}
+form fieldset{
+	background-color:#ADA9E1;
+	margin: 20px;
+}
+form legend{
+	text-transform:uppercase;
+	
+}
+hr{
+	margin:30px;
+}
